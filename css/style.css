@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background: url('../Images/bg.jpg');
+    color :white;
+    font-family: 'Ubuntu';
+}
+.left{
+ /* border: 2px solid red; */
+ display: inline-block;
+ position: absolute;
+ top: 12px;
+ left: 2%;
+
+}
+.right{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 27px;
+    right: 2%;
+    display: inline-block;
+}
+.mid{
+    display: block;
+    width: 37%;
+    margin: 15px auto;
+    /* border: 2px solid yellow; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    padding: 21px 31px;
+    font-size: 19px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(249, 116, 0);
+}
+.left img{
+    width: 84px;
+    filter: invert(100%);
+}
+
+.btn{
+    margin: 0px 8px;
+    padding: 8px 9px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+}
+.btn:hover{
+    background-color: rgb(189, 62, 62);
+}
+.container{
+    /* border: 2px solid greenyellow; */
+    margin: 2px;
+    margin: 101px 52px;
+    width: 43%;
+    border-radius: 6px;
+    padding: 110px 0px;
+}
+.form-group input{
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    width: 43%;
+    padding: 6px 7px;
+    border: 2px solid rgb(249, 116, 0);
+    margin: 11px auto;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: -27px auto;
+}
+.form-group h5{
+    display: inline-block;
+    position: relative;
+    top: 26px;
+    left: 35%;
+    /* border: 1px solid red; */
+    width: 37px;
+}
+#male{
+    margin-left: 11%;
+}
+#femaleh5{
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 58.3%;
+    /* border: 1px solid rgb(170, 255, 0); */
+    width: 61px;
+}
+#female{
+    /* border: 2px solid orangered; */
+    margin-left: 23px;
+    display: block;
+    position: relative;
+    top: -53px;
+    left: 26px;
+}
